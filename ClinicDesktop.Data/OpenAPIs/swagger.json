@@ -197,7 +197,7 @@
         "tags": [
           "Client"
         ],
-        "operationId": "ClientGetById",
+        "operationId": "ClienGetById",
         "parameters": [
           {
             "name": "clientId",

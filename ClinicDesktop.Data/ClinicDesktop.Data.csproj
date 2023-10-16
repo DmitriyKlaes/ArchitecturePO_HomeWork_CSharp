@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <OpenApiReference Include="OpenAPIs\swagger.json" CodeGenerator="NSwagCSharp" Namespace="ClinicServiceNamespace" ClassName="ClinicClient">
+    <OpenApiReference Include="OpenAPIs\swagger.json" CodeGenerator="NSwagCSharp" Namespace="ClinicServiceNameSpace" ClassName="ClinicClient">
       <SourceUri>http://localhost:5145/swagger/v1/swagger.json</SourceUri>
     </OpenApiReference>
   </ItemGroup>

@@ -1,6 +1,6 @@
-using ClinicServiceNamespace;
+using ClinicServiceNameSpace;
 
-namespace ClinicaDesktop
+namespace ClinicDesktop
 {
     public partial class Form1 : Form
     {
@@ -9,7 +9,7 @@ namespace ClinicaDesktop
             InitializeComponent();
         }
 
-        private void btn_Click(object sender, EventArgs e)
+        private void btnUpdate_Click(object sender, EventArgs e)
         {
             ClinicClient clinicClient = new ClinicClient("http://localhost:5145/", new HttpClient());
             ICollection<Client> clients = clinicClient.ClientGetAllAsync().Result;
@@ -33,8 +33,7 @@ namespace ClinicaDesktop
                 });
                 listViewClients.Items.Add(item);
             }
-
-
         }
+
     }
 }
