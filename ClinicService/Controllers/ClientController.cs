@@ -67,10 +67,15 @@ namespace ClinicService.Controllers
         }
 
         [HttpGet("get/{clientId}")]
-        [SwaggerOperation(OperationId = "ClientGetById")]
+        [SwaggerOperation(OperationId = "ClienGetById")]
         public ActionResult<Client> GetById([FromRoute] int clientId)
         {
             return Ok(_clientRepository.GetById(clientId));
         }
+
+        //public object Update(Client newClient)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

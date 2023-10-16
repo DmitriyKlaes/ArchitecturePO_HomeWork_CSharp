@@ -5,9 +5,11 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinicService", "ClinicService\ClinicService.csproj", "{D914F20F-50EA-4A87-B29E-757148F6F2CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaDesktop", "ClinicaDesktop\ClinicaDesktop.csproj", "{4CFA242A-C457-4F46-B836-FB62B05B53EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicDesktop", "ClinicDesktop\ClinicDesktop.csproj", "{1982D7F0-C08D-4667-A710-A856A35BCB41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaDesktop.Data", "ClinicaDesktop.Data\ClinicaDesktop.Data.csproj", "{91F55770-488D-4008-960E-36F9274C9334}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicDesktop.Data", "ClinicDesktop.Data\ClinicDesktop.Data.csproj", "{9C647ED2-5806-4A73-A148-AD6643E10330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicServiceTests", "ClinicServiceTests\ClinicServiceTests.csproj", "{360648A3-7015-4081-B799-688C3C58D66F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,16 @@ Global
 		{D914F20F-50EA-4A87-B29E-757148F6F2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D914F20F-50EA-4A87-B29E-757148F6F2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D914F20F-50EA-4A87-B29E-757148F6F2CD}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
+		{1982D7F0-C08D-4667-A710-A856A35BCB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1982D7F0-C08D-4667-A710-A856A35BCB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1982D7F0-C08D-4667-A710-A856A35BCB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1982D7F0-C08D-4667-A710-A856A35BCB41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C647ED2-5806-4A73-A148-AD6643E10330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C647ED2-5806-4A73-A148-AD6643E10330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C647ED2-5806-4A73-A148-AD6643E10330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C647ED2-5806-4A73-A148-AD6643E10330}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
 		{4CFA242A-C457-4F46-B836-FB62B05B53EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4CFA242A-C457-4F46-B836-FB62B05B53EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CFA242A-C457-4F46-B836-FB62B05B53EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +39,11 @@ Global
 		{91F55770-488D-4008-960E-36F9274C9334}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91F55770-488D-4008-960E-36F9274C9334}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91F55770-488D-4008-960E-36F9274C9334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360648A3-7015-4081-B799-688C3C58D66F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360648A3-7015-4081-B799-688C3C58D66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360648A3-7015-4081-B799-688C3C58D66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360648A3-7015-4081-B799-688C3C58D66F}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-namespace ClinicaDesktop
+namespace ClinicDesktop
 {
     internal static class Program
     {
